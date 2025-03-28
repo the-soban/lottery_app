@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  MyApp({super.key});
 
-  final int x =
+  int x =
       0; //final keyword before any variable makes it immutable, means the variable can't be changed once it's assigned a value.
 
   @override
@@ -44,7 +44,8 @@ class MyApp extends StatelessWidget {
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {
-            print('FAB pressed!');
+            x++;
+            print(x.toString());
           },
           child: Icon(Icons.add),
         ),
@@ -52,3 +53,14 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+
+
+
+/*
+NOTES:
+- stateless widgets dont update a component's state on runtime, they dont show the updated state of a variable/component as it changes on the spot...we have to hot reload our app to see the changes, because hot reload rebuilds our app/widgets from the Build method, which ultimately reflects the updated state of our app.
+
+
+
+*/
