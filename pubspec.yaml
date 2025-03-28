@@ -73,17 +73,31 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
+  fonts:
+    - family: Urbanist Extralight
+      fonts:
+        - asset: fonts/Urbanist-extralight.ttf
+    - family: Urbanist Light
+      fonts:
+        - asset: fonts/Urbanist-light.ttf
+    - family: Urbanist Regular
+      fonts:
+        - asset: fonts/Urbanist-Regular.ttf
+    - family: Urbanist Medium
+      fonts:
+        - asset: fonts/Urbanist-medium.ttf
+    - family: Urbanist Semibold
+      fonts:
+        - asset: fonts/Urbanist-semibold.ttf
+    - family: Urbanist Bold
+      fonts:
+        - asset: fonts/Urbanist-bold.ttf
+    - family: Urbanist Extrabold
+      fonts:
+        - asset: fonts/Urbanist-extrabold.ttf
+    - family: Urbanist Black
+      fonts:
+        - asset: fonts/Urbanist-black.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
